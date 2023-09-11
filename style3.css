@@ -1,0 +1,148 @@
+body {
+    background-color: rgb(238, 229, 237);
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    background-color: rgb(67, 199, 199);
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    display: block;
+    margin-right: 40px;
+    padding-left: 20px;
+    float: right;
+    text-align: right;
+    transition: text-decoration 0.2s;
+}
+nav li:hover {
+    text-decoration:overline;
+    
+}
+
+#banner {
+    background-image: url(imagens/recifeBG.jpg);
+    width: 1210px;
+    height: 550px;
+    margin: 10px;
+   
+}
+
+#chamada {
+    text-align: center;
+    font-size: 40px;
+    margin-right: 10px;
+    color: black;
+    
+}
+
+h2 {
+    font-size: 30px;
+    padding-left: 60px;
+    
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 0 60px;
+    
+}
+
+img {
+    height: 200px;
+    padding: 5px 60px;
+    align-items: center;
+    border-style: solid ;
+    border-radius: 20px;
+    
+}
+
+.foto {
+    width: 270px;
+   
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(67, 199, 199);
+    transition: background-color 0.2s;
+}
+
+h3:hover {
+    background-color: grey
+}
+
+section a {
+    text-decoration: none;
+    color: black;
+}
+
+footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    text-align: justify;
+    padding: 20px 10px;
+}
+
+.pontos {
+    padding-top: 50px;
+}
+
+.legenda {
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(67, 199, 199);
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.pagina {
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    transition: text-decoration 0.2s;
+    
+}
+
+.pagina:hover {
+    text-decoration: overline;
+}
+
+.imagem  {
+    display: flex;
+    align-items: center;
+}
+
+.imagem img {
+    width: 500px;
+    height: 400px;
+}
